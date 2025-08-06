@@ -1,30 +1,61 @@
-# Firdavs portfolio website
+Firdavs Iskandarov - Full-Stack Developer Portfolio
+Welcome to my portfolio! This site is a showcase of my work and skills as a Full-Stack Developer. I'm passionate about crafting the future of web experiences with cutting-edge technologies, specializing in React, Django, and modern web architectures.
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+Feel free to explore my projects, learn about my skills, and get in touch!
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/firdavs-projects-61745411/v0-firdavs-portfolio-website)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/9YNpGAn0N6h)
+Key Features
+Stunning UI/UX: A modern, dark-themed design with cosmic-inspired visuals and interactive 3D elements.
 
-## Overview
+Dynamic Animations: A seamless and engaging user experience powered by the Framer Motion library.
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+Comprehensive Project Showcase: Detailed overviews of my work, including project descriptions, a list of technologies used, and links to live demos or GitHub repositories.
 
-## Deployment
+Skills Overview: A clear breakdown of my expertise in frontend, backend, database, and development tools.
 
-Your project is live at:
+Contact Form: A direct way to connect with me, with submissions handled efficiently by Web3Forms.
 
-**[https://vercel.com/firdavs-projects-61745411/v0-firdavs-portfolio-website](https://vercel.com/firdavs-projects-61745411/v0-firdavs-portfolio-website)**
+Technologies Used
+This project was built using a modern and robust stack:
 
-## Build your app
+Frontend: React.js with Tailwind CSS for styling and Framer Motion for animations.
 
-Continue building your app on:
+Backend: This is a static frontend project, but my skills and showcased projects are heavily focused on Python, Django, and Django REST Framework.
 
-**[https://v0.dev/chat/projects/9YNpGAn0N6h](https://v0.dev/chat/projects/9YNpGAn0N6h)**
+Tools & Services: Git for version control and Web3Forms for the contact form.
 
-## How It Works
+Project Highlights
+Here are a few projects featured in my portfolio that highlight my diverse skill set:
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+IMDB Clone Backend: A robust and scalable API for a movie database, featuring user authentication, reviews, and ratings, built with Django REST Framework.
+
+Instagram Clone Backend: A full-featured backend for an Instagram-like application, including real-time chat functionality using WebSockets and Django Channels.
+
+FC Unwanted Boys ReactJS: An interactive and responsive frontend UI for a football club, built with React.js and integrated with the YouTube API for dynamic content.
+
+How to Run This Project Locally
+If you'd like to run this project on your machine, follow these simple steps:
+
+Clone the repository:
+git clone [your-repository-url]
+
+Navigate to the project directory:
+cd [your-project-name]
+
+Install the dependencies:
+npm install
+
+Set up the contact form: Before running, you will need a Web3Forms Access Key. You can get one for free from Web3Forms. Paste your key into src/App.js in the access_key field within the handleSubmit function.
+
+Start the development server:
+npm run dev
+
+The site will now be running on http://localhost:5173 (or another port depending on your setup).
+
+Contact
+You can reach me through the contact form on this site, or directly via:
+
+Email: iskandarovfirdavs09@gmail.com
+
+LinkedIn: linkedin.com/in/firdavs-iskandarov
+
+GitHub: github.com/IskandarovFirdavs
