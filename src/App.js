@@ -19,7 +19,7 @@ import {
   AlertCircle,
 } from "lucide-react";
 
-const resume = process.env.PUBLIC_URL + "/Firdavs_Iskandarov_Resume.pdf";
+const resume = process.env.PUBLIC_URL + "/Firdavs_Iskandarov_CV.pdf";
 const me = process.env.PUBLIC_URL + "/me.jpg";
 
 // Portfolio data
