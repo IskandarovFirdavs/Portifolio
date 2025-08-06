@@ -19,6 +19,9 @@ import {
   AlertCircle,
 } from "lucide-react";
 
+const resume = process.env.PUBLIC_URL + "/Firdavs_Iskandarov_Resume.pdf";
+const me = process.env.PUBLIC_URL + "/me.jpg";
+
 // Portfolio data
 const portfolioData = {
   name: "Firdavs Iskandarov",
@@ -819,7 +822,7 @@ function App() {
               className="flex items-center space-x-4"
             >
               <a
-                href="/resume.pdf"
+                href={resume}
                 download
                 className="flex items-center px-4 py-2 text-sm font-medium text-cyan-400 rounded-full border border-cyan-400/30 hover:bg-cyan-400/10 transition-all duration-300"
                 style={{
@@ -872,7 +875,7 @@ function App() {
               />
               <div className="absolute inset-2 rounded-full overflow-hidden z-10">
                 <img
-                  src="/me.jpg"
+                  src={me}
                   alt="My Avatar"
                   className="w-full h-full object-cover"
                 />
